@@ -1,0 +1,13 @@
+# num=int(input("Enter the number "))
+# if (num==0):
+#     fact=1
+# fact=1
+# for i in range(1,num+1):
+#     fact=fact*i
+# print("factorial of",num,"is",fact)
+n=int(input("Enter the number "))
+s=0.0
+for i in range(1,n+1):
+    a=float(i**i)/i
+    s=s+a
+print("the sumof the series",s)
