@@ -6,4 +6,4 @@ def rev(str1):
         i=i-1
         return str2
 word=input("Enter a string")
-print("The mirror image of the given  string is",word)
+print("The mirror image of the given  string is",rev(word))
